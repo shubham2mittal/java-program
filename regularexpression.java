@@ -11,7 +11,7 @@ class regexexp
 
  	while(mat.find())
 	{
-		System.out.println(mat.group()+" first index is "+mat.start()+ "last index is not"+(mat.end()-1));
+		System.out.println(mat.group()+"my first index is "+mat.start()+ "last index is not"+(mat.end()-1));
 	}
  	}
 
