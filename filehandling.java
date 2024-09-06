@@ -19,7 +19,7 @@ class A
 	  }
        catch(FileNotFoundException e)
        {
-       	 System.out.println("run not");
+       	 System.out.println("file not in directory");
        	 System.exit(1);
        }
    }
